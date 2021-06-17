@@ -1,28 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/app.css">
-    <script src="js/bootstrap.bundle.min.js" type="text/javascript" rel="script"></script>
-    <title>Kanantre</title>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <script
+            src="bootstrap/js/bootstrap.bundle.min.js"
+            type="text/javascript"
+            rel="script"
+    ></script>
+    <title>kanantre</title>
 </head>
 <body>
-<main class="h-100 d-flex flex-column">
-    <nav class="navbar navbar-expand-md navbar-light bg-white py-4 px-4">
+<main>
+    <nav class="navbar navbar-expand-md navbar-light bg-white p-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">kanantre</a>
+            <a class="navbar-brand text-black fs-3 fw-light" href="#">
+                kan<span class="text-primary fs-3 fw-bold">antre</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-md-flex flex-md-row mt-4 mt-md-0 justify-content-md-end"
+            <div class="collapse navbar-collapse"
                  id="navbarSupportedContent">
-                <ul class="nav nav-pills d-flex flex-column flex-md-row text-center">
+                <ul class="navbar-nav ms-auto me-auto mb-lg-0 gap-3">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -35,9 +43,9 @@
                             Products
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Kanantre Klinik</a></li>
-                            <li><a class="dropdown-item" href="#">Kanantre Bank</a></li>
-                            <li><a class="dropdown-item" href="#">Kanantre Gov</a></li>
+                            <li><a class="dropdown-item" href="#">kanantre Klinik</a></li>
+                            <li><a class="dropdown-item" href="#">kanantre Bank</a></li>
+                            <li><a class="dropdown-item" href="#">kanantre Gov</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -47,12 +55,204 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                 </ul>
+
+                <div id="action" class="gap-5">
+                    <a href="#" class="me-2 primary-outline-button">Sign Up</a>
+                    <a href="#" class="ms-2 primary-button">Login</a>
+                </div>
             </div>
         </div>
     </nav>
-    <section class="d-flex flex-grow-1 justify-content-center align-items-center">
-        <h1 class="h1">Hi Kanantre!</h1>
+    <section id="content">
+        <div id="section-one"></div>
     </section>
+    <!--    <section-->
+    <!--            class="-->
+    <!--          d-flex-->
+    <!--          flex-column-->
+    <!--          flex-grow-1-->
+    <!--          flext-fill-->
+    <!--          align-items-start-->
+    <!--        "-->
+    <!--    >-->
+    <!--        <div id="section-one" class="d-flex flex-row px-3 mb-5">-->
+    <!--            <div id="title" class="d-flex flex-column justify-content-center">-->
+    <!--                <p class="h1 fw-normal">-->
+    <!--                    Jawaban atas-->
+    <!--                    <br/>-->
+    <!--                    keresahanmu tentang-->
+    <!--                    <br/>-->
+    <!--                    arti-->
+    <!--                    <span class="fw-bold" style="color: #43a367">menanti</span>-->
+    <!--                </p>-->
+    <!--                <p>-->
+    <!--                    Cari dan temukan kemudahan hidup, tak perlu pusing-->
+    <!--                    <br/>-->
+    <!--                    mengantre dan berlama-lama menunggu-->
+    <!--                </p>-->
+    <!--                <a-->
+    <!--                        href="#section-two"-->
+    <!--                        class="btn-outline flex-shrink-1 text-nowrap bd-highlight"-->
+    <!--                        style="width: 12rem"-->
+    <!--                >-->
+    <!--                    Selengkapnya-->
+    <!--                </a>-->
+    <!--            </div>-->
+    <!--            <img src="asset/Homepage/jawaban atas.svg" alt="antre" width="500"/>-->
+    <!--        </div>-->
+
+    <!--        <div-->
+    <!--                id="section-two"-->
+    <!--                class="d-flex flex-row mt-5 justify-content-center"-->
+    <!--        >-->
+    <!--            <div id="title" class="d-flex flex-column justify-content-center">-->
+    <!--                <h1 class="h1 fw-bold">Siapa kami?</h1>-->
+    <!--                <p>-->
+    <!--                    Kami adalah perusahaan rintisan yang bergerak dalam <br/>-->
+    <!--                    bidang penyedia layanan/ jasa. Kami berkomitmen <br/>-->
+    <!--                    untuk menciptakan dan membuat suasana mengantre <br/>-->
+    <!--                    menjadi lebih mudah dan menyenangkan-->
+    <!--                </p>-->
+    <!--                <p>-->
+    <!--                    Melalui kanantre, kami menawarkan layanan untuk <br/>-->
+    <!--                    mengambil nomor antrean dari mana dan kapan saja. <br/>-->
+    <!--                    Sehingga, para customer tidak perlu pusing <br/>-->
+    <!--                    mengantre dan repot-repot datang ke tempat secara langsung.-->
+    <!--                </p>-->
+    <!--            </div>-->
+    <!--            <img src="asset/Homepage/bg apa yang kami.svg" alt=""/>-->
+    <!--            <img src="asset/Homepage/siapa kami bg.svg" alt=""/>-->
+    <!--        </div>-->
+
+    <!--        <div id="section-three" class="justify-content-center">-->
+    <!--            <h1 class="h1 fw-bold text-center"> Apa Yang Kami Kerjakan </h1>-->
+
+    <!--            <div class="container">-->
+    <!--                <div class="row row-cols-3">-->
+
+    <!--                    <div class="col justify-content-center">-->
+    <!--                        <div id="image">-->
+    <!--                            <img src="./asset/Homepage/klinik.svg" alt="klinik">-->
+    <!--                        </div>-->
+    <!--                        <br>-->
+    <!--                        <div id="content" class="text-center">-->
+    <!--                            <h2>kanantre klinik</h2>-->
+    <!--                            <p>Tak perlu lagi datang pagi buta, pesan antrean dan buat appointment kapan saja dan dimana-->
+    <!--                                saja</p>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+
+    <!--                    <div class="col">-->
+    <!--                        <div>-->
+    <!--                            <img src="./asset/Homepage/bank.svg" alt="bank">-->
+    <!--                        </div>-->
+    <!--                        <br>-->
+    <!--                        <div id="content" class="text-center">-->
+    <!--                            <h2> kanantre bank </h2>-->
+    <!--                            <p> Tak perlu lagi struk antrean, tunjukkan QR Code dan kamu sudah bisa dilayani di bank-->
+    <!--                                kesayanganmu </p>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+
+    <!--                    <div class="col">-->
+    <!--                        <div>-->
+    <!--                            <img src="./asset/Homepage/gov.svg" alt="gov">-->
+    <!--                        </div>-->
+    <!--                        <br>-->
+    <!--                        <div id="content" class="text-center">-->
+    <!--                            <h2> kanantre gov </h2>-->
+    <!--                            <p> Tak perlu lagi bosan menunggu, segala urusan administrasi pemerintahan bebas antre di-->
+    <!--                                tempat </p>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+
+    <!--                <a-->
+    <!--                        href="#./pages/products.html"-->
+    <!--                        class="btn-outline flex-shrink-1 text-nowrap bd-highlight"-->
+    <!--                        style="width: 12rem"-->
+    <!--                >-->
+    <!--                    Produk Kami-->
+    <!--                </a>-->
+    <!--            </div>-->
+
+
+    <!--            <div id="section-four">-->
+    <!--                <h1 class="h1 fw-bold text-center"> Mitra Kami </h1>-->
+
+    <!--                <div>-->
+    <!--                    <img src="./asset/Homepage/mitra.svg">-->
+    <!--                </div>-->
+
+    <!--            </div>-->
+
+    <!--            <div id="section-five" class="d-flex justify-content-center align-items-center px-5 py-5 mt-5"-->
+    <!--                 style="background-color: #43a367;">-->
+    <!--                <div class="d-flex flex-column justify-content-center align-items-center">-->
+
+    <!--                    <h1 class="h1 text-center"-->
+    <!--                        style="font-size: 24px;font-weight: 600;color: white; font-style: italic;">-->
+    <!--                        “Wuoooh mantab! Jadi teringat deg2annya di momen senbatsu Uza (Wota Abizz) pekan lalu”-->
+    <!--                    </h1>-->
+    <!--                    <img src="./asset/Homepage/herman.png" class="mt-5" alt="herman" width="60" height="60">-->
+
+    <!--                    <h3 class="mt-3" style="font-size: 18px; color: white; font-weight: 600;">Herman Jonex</h3>-->
+    <!--                    <p style="font-size: 14px; color: #c9e0cf; font-weight: 500;">Engineer at Totok Official</p>-->
+
+    <!--                    <img src="./asset/Homepage/geser.svg" alt="geser"> ga gini asu. gajelas. Anjay-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--    </section>-->
+    <!--    <footer id="footer" class="p-3 container" style="background-color: #202020;">-->
+    <!--        <div class="row">-->
+    <!--            <h2 style=" font-weight: 200; color: white;">kanantre</h2>-->
+    <!--            <div class="col" id="contacts">-->
+
+    <!--                <div class="mt-3" style="color: white;">-->
+
+    <!--                    <h3>Contact</h3>-->
+    <!--                    <div class="d-flex">-->
+    <!--                        <img src="./asset/Footer/Call.svg" alt="" width="28px" height="28px">-->
+    <!--                        <p>0857 5757 8888</p>-->
+    <!--                    </div>-->
+    <!--                    <div class="d-flex">-->
+    <!--                        <img src="./asset/Footer/email.svg" alt="" width="28px" height="28px">-->
+    <!--                        <p>support@kanantre.com</p>-->
+    <!--                    </div>-->
+    <!--                    <div class="d-flex">-->
+    <!--                        <img src="./asset/Footer/Location.svg" alt="" width="28px" height="28px">-->
+    <!--                        <p>Jl. Raya Kemanggisan, No. 66-->
+    <!--                            Kecamatan Tambun, Kota Jakarta Barat-->
+    <!--                            Jakarta</p>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+
+    <!--            <div class="col" id="newsletter" style="color: white;">-->
+    <!--                <h3> News Letter </h3>-->
+    <!--                <p>Subs to newsletter to get latest information about our progress, directly to your email inbox</p>-->
+    <!--                <input class="newsletter-field p-3" type="text" placeholder="Your email" name="newsletter"-->
+    <!--                       id="newsletter">-->
+    <!--                <a href="#" class="btn-send ms-0">-->
+    <!--                    <img src="./asset/Footer/Send.svg" alt="send">-->
+    <!--                </a>-->
+    <!--            </div>-->
+
+
+    <!--            <div class="col" id="social-media" style="color: white;">-->
+    <!--                <h3> Social </h3>-->
+    <!--                <br>-->
+
+    <!--                <img src="./asset/Footer/twitter.svg">-->
+    <!--                <a href="https://www.youtube.com/channel/UCXG5QgpS9pCA7X38GBCZfHQ" target="_blank"> <img-->
+    <!--                        src="./asset/Footer/yt.svg"></a>-->
+    <!--                <a href="https://www.instagram.com/idhsti_/" target="_blank"> <img src="./asset/Footer/ig.svg"> </a>-->
+    <!--                <img src="./asset/Footer/fb.svg">-->
+    <!--            </div>-->
+
+
+    <!--        </div>-->
+    <!--    </footer>-->
 </main>
 </body>
 </html>
