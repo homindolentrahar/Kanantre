@@ -1,344 +1,771 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
+  <head>
+    <meta charset="UTF-8" />
     <meta
-            name="viewport"
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="stylesheet" type="text/css" href="../bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/custom.css"/>
-    <script src="../bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript" rel="script"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/custom.css" />
+    <script
+      src="../bootstrap/dist/js/bootstrap.bundle.min.js"
+      type="text/javascript"
+      rel="script"
     ></script>
-    <title>Products</title>
-</head>
-<body>
-<main>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-white p-3">
+    <title>Pricing</title>
+  </head>
+  <body>
+    <main>
+      <nav
+        id="navbar"
+        class="navbar navbar-expand-lg navbar-light bg-white p-3"
+      >
         <div class="container-fluid">
-            <a class="navbar-brand text-black fs-3 fw-light" href="index.html">
-                kan<span class="text-primary fs-3 fw-bold">antre</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse"
-                 id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto me-auto my-3 my-lg-0 gap-3">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="features.html">Features</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-bs-toggle="dropdown" aria-expanded="false">
-                            Products
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="products.html#klinik">kanantre Klinik</a></li>
-                            <li><a class="dropdown-item" href="products.html#bank">kanantre Bank</a></li>
-                            <li><a class="dropdown-item" href="products.html#gov">kanantre Gov</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
+          <a class="navbar-brand text-black fs-3 fw-light" href="index.html">
+            kan<span class="text-primary fs-3 fw-bold">antre</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-auto my-3 my-lg-0 gap-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="features.html">Features</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="products.html#klinik"
+                      >kanantre Klinik</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="products.html#bank"
+                      >kanantre Bank</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="products.html#gov"
+                      >kanantre Gov</a
+                    >
+                  </li>
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
 
-                <div id="action" class="d-flex flex-row justify-content-center gap-3 gap-lg-0 mt-5 mt-lg-0">
-                    <a href="#" class="me-lg-2 primary-outline-button">Sign Up</a>
-                    <a href="#" class="ms-lg-2 primary-button">Login</a>
-                </div>
+            <div
+              id="action"
+              class="
+                d-flex
+                flex-row
+                justify-content-center
+                gap-3 gap-lg-0
+                mt-5 mt-lg-0
+              "
+            >
+              <a href="#" class="me-lg-2 primary-outline-button">Sign Up</a>
+              <a href="#" class="ms-lg-2 primary-button">Login</a>
             </div>
+          </div>
         </div>
-    </nav>
-    <section id="content" class="pt-5">
+      </nav>
+      <section id="content" class="pt-5">
         <div id="pricing" class="container-fluid my-5">
-            <div id="heading" class="w-50 my-5 text-center ms-auto me-auto">
-                <h1 class="display-3 fw-bold text-black">
-                    Siap menggunakan <span class="fw-light">kan<span class="fw-bold text-primary">antre</span></span>?
-                </h1>
-                <p class="fs-5 text-soft-black mt-3">Pilih plan yang cocok dengan kebutuhan anda, atau dapatkan
-                    access ke
-                    seluruh feature produk kami selama 7 hari dengan memulai free-trial</p>
+          <div id="heading" class="w-50 my-5 text-center ms-auto me-auto">
+            <h1 class="display-3 fw-bold text-black">
+              Siap menggunakan
+              <span class="fw-light"
+                >kan<span class="fw-bold text-primary">antre</span></span
+              >?
+            </h1>
+            <p class="fs-5 text-soft-black mt-3">
+              Pilih plan yang cocok dengan kebutuhan anda, atau dapatkan access
+              ke seluruh feature produk kami selama 7 hari dengan memulai
+              free-trial
+            </p>
+          </div>
+          <div
+            id="plan"
+            class="
+              my-3
+              mx-3
+              row row-cols-1 row-cols-lg-auto
+              gap-3
+              justify-content-center
+            "
+          >
+            <div id="personal" class="col">
+              <div class="pricing-plan-border p-3 text-center text-lg-start">
+                <h2 class="heading-3">Personal Plan</h2>
+                <p class="body-text-gray">For personal use</p>
+                <h1 class="heading-1 my-5">Free</h1>
+                <div id="perks-personal" class="d-flex flex-column gap-3 my-5">
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Dashboard</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Single administrator
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Live-Counter</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Limited payment gateway
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Limited booking time
+                    </p>
+                  </div>
+                </div>
+                <a href="#" class="d-flex justify-content-center primary-button"
+                  >Choose Plan</a
+                >
+              </div>
             </div>
-            <div id="planning" class="my-5 ms-5 me-5 row row-cols-1 row-cols-lg-auto gap-5 justify-content-center">
-                <div id="personal" class="col">
-                    <div class="pricing-plan-border p-5 text-center text-lg-start">
-                        <h2 class="heading-3">Personal Plan</h2>
-                        <p class="body-text-gray">For personal use</p>
-                        <h1 class="heading-1 my-5">Free</h1>
-                        <div id="perks-personal" class="d-flex flex-column gap-3 my-5">
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Dashboard</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Single administrator</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Live-Counter</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Limited payment gateway</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Limited booking time</p>
-                            </div>
-                        </div>
-                        <a href="#" class="d-flex justify-content-center primary-button">Choose Plan</a>
-                    </div>
+            <div id="business" class="col">
+              <div class="pricing-plan-border p-3 text-center text-lg-start">
+                <h2 class="heading-3">Business Plan</h2>
+                <p class="body-text-gray">For growing business</p>
+                <div
+                  class="
+                    my-5
+                    gap-3
+                    d-flex
+                    flex-row
+                    justify-content-center justify-content-lg-start
+                    align-items-center
+                  "
+                >
+                  <p class="body-text align-self-end">IDR</p>
+                  <h1 class="heading-1">1.59M</h1>
+                  <p class="body-text-gray">/ Month</p>
                 </div>
-                <div id="business" class="col">
-                    <div class="pricing-plan-border p-5 text-center text-lg-start">
-                        <h2 class="heading-3">Business Plan</h2>
-                        <p class="body-text-gray">For growing business</p>
-                        <div class="my-5 gap-3 d-flex flex-row justify-content-center justify-content-lg-start align-items-center">
-                            <p class="body-text align-self-end">IDR</p>
-                            <h1 class="heading-1">1.59M</h1>
-                            <p class="body-text-gray">/ Month</p>
-                        </div>
-                        <div id="perks-business" class="d-flex flex-column gap-3 my-5">
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Dashboard</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Multiple administrator</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Live-Counter</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Unlimited payment gateway</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Unlimited booking time</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Analytics</p>
-                            </div>
-                        </div>
-                        <a href="#" class="d-flex justify-content-center primary-button">Choose Plan</a>
-                    </div>
+                <div id="perks-business" class="d-flex flex-column gap-3 my-5">
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Dashboard</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Multiple administrator
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Live-Counter</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Unlimited payment gateway
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Unlimited booking time
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Analytics</p>
+                  </div>
                 </div>
-                <div id="enterprise" class="col">
-                    <div class="pricing-plan-border p-5 text-center text-lg-start">
-                        <h2 class="heading-3">Enterprise Plan</h2>
-                        <p class="body-text-gray">For big corporation</p>
-                        <div class="my-5 gap-3 d-flex flex-row justify-content-center justify-content-lg-start align-items-center">
-                            <p class="body-text align-self-end">IDR</p>
-                            <h1 class="heading-1">2.49M</h1>
-                            <p class="body-text-gray">/ Month</p>
-                        </div>
-                        <div id="perks-enterprise" class="d-flex flex-column gap-3 my-5">
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Dashboard</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Multiple administrator</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Live-Counter</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Unlimited payment gateway</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Unlimited booking time</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Analytics</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Administrative role</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">24/7 Tech Support</p>
-                            </div>
-                            <div class="d-flex flex-wrap flex-column flex-lg-row justify-content-center justify-content-lg-start gap-0 gap-lg-3">
-                                <img src="../asset/Pricing/CheckCircle.svg" alt="checkmark">
-                                <p class="body-text mt-auto mb-auto">Virtual Assistant</p>
-                            </div>
-                        </div>
-                        <a href="#" class="d-flex justify-content-center primary-button">Choose Plan</a>
-                    </div>
-                </div>
+                <a href="#" class="d-flex justify-content-center primary-button"
+                  >Choose Plan</a
+                >
+              </div>
             </div>
+            <div id="enterprise" class="col">
+              <div class="pricing-plan-border p-3 text-center text-lg-start">
+                <h2 class="heading-3">Enterprise Plan</h2>
+                <p class="body-text-gray">For big corporation</p>
+                <div
+                  class="
+                    my-5
+                    gap-3
+                    d-flex
+                    flex-row
+                    justify-content-center justify-content-lg-start
+                    align-items-center
+                  "
+                >
+                  <p class="body-text align-self-end">IDR</p>
+                  <h1 class="heading-1">2.49M</h1>
+                  <p class="body-text-gray">/ Month</p>
+                </div>
+                <div
+                  id="perks-enterprise"
+                  class="d-flex flex-column gap-3 my-5"
+                >
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Dashboard</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Multiple administrator
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Live-Counter</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Unlimited payment gateway
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">
+                      Unlimited booking time
+                    </p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Analytics</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Administrative role</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">24/7 Tech Support</p>
+                  </div>
+                  <div
+                    class="
+                      d-flex
+                      flex-wrap flex-column flex-lg-row
+                      justify-content-center justify-content-lg-start
+                      gap-0 gap-lg-3
+                    "
+                  >
+                    <img
+                      src="../asset/Pricing/CheckCircle.svg"
+                      alt="checkmark"
+                    />
+                    <p class="body-text mt-auto mb-auto">Virtual Assistant</p>
+                  </div>
+                </div>
+                <a href="#" class="d-flex justify-content-center primary-button"
+                  >Choose Plan</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
         <div id="faq" class="container-fluid my-5">
-            <h1 class="heading-3 text-center">Frequently asked question </h1>
-            <div class="accordion my-5 mx-5" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed heading-6 py-5" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                            Bagaimana cara bayar untuk setiap layanan yang ditawarkan ?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsum reiciendis
-                            repellendus? Assumenda dolor, dolores eligendi eum explicabo facere illum impedit repellat
-                            sed soluta sunt suscipit, tenetur unde velit voluptatibus?
-                        </div>
-                    </div>
+          <h1 class="heading-3 text-center">Frequently asked question</h1>
+          <div class="accordion my-5 mx-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button collapsed heading-6 py-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Bagaimana cara bayar untuk setiap layanan yang ditawarkan ?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Animi ipsum reiciendis repellendus? Assumenda dolor, dolores
+                  eligendi eum explicabo facere illum impedit repellat sed
+                  soluta sunt suscipit, tenetur unde velit voluptatibus?
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed heading-6 py-5" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Apakah saya bisa membayar melalui Indomart atau Alfamart?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsum reiciendis
-                            repellendus? Assumenda dolor, dolores eligendi eum explicabo facere illum impedit repellat
-                            sed soluta sunt suscipit, tenetur unde velit voluptatibus?
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed heading-6 py-5" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Apa yang dilakukan jika saya lupa Pasword akun Kanantre?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsum reiciendis
-                            repellendus? Assumenda dolor, dolores eligendi eum explicabo facere illum impedit repellat
-                            sed soluta sunt suscipit, tenetur unde velit voluptatibus?
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed heading-6 py-5" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Pembayaran dengan dompet digital apa saja yang saat ini tersedia di Kanatre?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsum reiciendis
-                            repellendus? Assumenda dolor, dolores eligendi eum explicabo facere illum impedit repellat
-                            sed soluta sunt suscipit, tenetur unde velit voluptatibus?
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed heading-6 py-5" type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Bagaimana saya mengubungi pihak kanantre ?
-                        </button>
-                    </h2>
-                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ipsum reiciendis
-                            repellendus? Assumenda dolor, dolores eligendi eum explicabo facere illum impedit repellat
-                            sed soluta sunt suscipit, tenetur unde velit voluptatibus?
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed heading-6 py-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Apakah saya bisa membayar melalui Indomart atau Alfamart?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Animi ipsum reiciendis repellendus? Assumenda dolor, dolores
+                  eligendi eum explicabo facere illum impedit repellat sed
+                  soluta sunt suscipit, tenetur unde velit voluptatibus?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed heading-6 py-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Apa yang dilakukan jika saya lupa Pasword akun Kanantre?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Animi ipsum reiciendis repellendus? Assumenda dolor, dolores
+                  eligendi eum explicabo facere illum impedit repellat sed
+                  soluta sunt suscipit, tenetur unde velit voluptatibus?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed heading-6 py-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                >
+                  Pembayaran dengan dompet digital apa saja yang saat ini
+                  tersedia di Kanatre?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Animi ipsum reiciendis repellendus? Assumenda dolor, dolores
+                  eligendi eum explicabo facere illum impedit repellat sed
+                  soluta sunt suscipit, tenetur unde velit voluptatibus?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed heading-6 py-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                >
+                  Bagaimana saya mengubungi pihak kanantre ?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Animi ipsum reiciendis repellendus? Assumenda dolor, dolores
+                  eligendi eum explicabo facere illum impedit repellat sed
+                  soluta sunt suscipit, tenetur unde velit voluptatibus?
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <footer id="footer" class="p-3 bg-black container-fluid">
+      </section>
+      <footer id="footer" class="p-3 bg-black container-fluid">
         <div class="row py-3 px-5 text-center text-lg-start">
-            <a href="index.html" class="fs-3 fw-light text-white mb-3 mb-lg-5 text-decoration-none">
-                kan<span class="fw-bold text-primary">antre</span>
-            </a>
-            <div class="col-12 col-lg my-5 my-lg-0 text-white">
-                <h1 class="fs-4 fw-boldtext-white">Contacts</h1>
-                <div class="mt-4 pe-lg-5 d-flex flex-column">
-                    <div class="d-flex flex-row gap-3 justify-content-center justify-content-lg-start align-items-start">
-                        <img src="../asset/Homepage/Call.svg" alt="phone">
-                        <p class="fs-6">0822 4541 6666</p>
-                    </div>
-                    <div class="d-flex flex-row gap-3 justify-content-center justify-content-lg-start align-items-start">
-                        <img src="../asset/Homepage/Message.svg" alt="email">
-                        <p class="fs-6">contact@kanantre.com</p>
-                    </div>
-                    <div class="d-flex flex-row gap-3 justify-content-center justify-content-lg-start align-items-start">
-                        <img src="../asset/Homepage/Location.svg" alt="location">
-                        <p class="fs-6">Jl. Raya Kemanggisan, No. 66 Kecamatan Tambun, Kota Jakarta Barat Jakarta</p>
-                    </div>
-                </div>
+          <a
+            href="index.html"
+            class="fs-3 fw-light text-white mb-3 mb-lg-5 text-decoration-none"
+          >
+            kan<span class="fw-bold text-primary">antre</span>
+          </a>
+          <div class="col-12 col-lg my-5 my-lg-0 text-white">
+            <h1 class="fs-4 fw-boldtext-white">Contacts</h1>
+            <div class="mt-4 pe-lg-5 d-flex flex-column">
+              <div
+                class="
+                  d-flex
+                  flex-row
+                  gap-3
+                  justify-content-center justify-content-lg-start
+                  align-items-start
+                "
+              >
+                <img src="../asset/Homepage/Call.svg" alt="phone" />
+                <p class="fs-6">0822 4541 6666</p>
+              </div>
+              <div
+                class="
+                  d-flex
+                  flex-row
+                  gap-3
+                  justify-content-center justify-content-lg-start
+                  align-items-start
+                "
+              >
+                <img src="../asset/Homepage/Message.svg" alt="email" />
+                <p class="fs-6">contact@kanantre.com</p>
+              </div>
+              <div
+                class="
+                  d-flex
+                  flex-row
+                  gap-3
+                  justify-content-center justify-content-lg-start
+                  align-items-start
+                "
+              >
+                <img src="../asset/Homepage/Location.svg" alt="location" />
+                <p class="fs-6">
+                  Jl. Raya Kemanggisan, No. 66 Kecamatan Tambun, Kota Jakarta
+                  Barat Jakarta
+                </p>
+              </div>
             </div>
-            <div class="col-12 col-lg my-5 my-lg-0 text-white">
-                <h1 class="fs-4 fw-bold text-white">Newsletter</h1>
-                <div class="mt-4 pe-lg-5 d-flex flex-column justify-content-start">
-                    <p class="fs-6 text-light">Subs to newsletter to get latest information about our progress, directly
-                        to your email inbox</p>
-                    <div class="d-flex flex-row mt-3 justify-content-center justify-content-lg-start">
-                        <div class="form-floating">
-                            <input type="email" class="form-control text-black rounded-start rounded-0 border-0"
-                                   id="floatingInput"
-                                   placeholder="name@example.com">
-                            <label class="text-soft-black" for="floatingInput">Email address</label>
-                        </div>
-                        <a href="#"
-                           class="d-flex bg-primary rounded-end px-3 justify-content-center align-items-center">
-                            <img src="../asset/Homepage/Send.svg" alt="send">
-                        </a>
-                    </div>
+          </div>
+          <div class="col-12 col-lg my-5 my-lg-0 text-white">
+            <h1 class="fs-4 fw-bold text-white">Newsletter</h1>
+            <div class="mt-4 pe-lg-5 d-flex flex-column justify-content-start">
+              <p class="fs-6 text-light">
+                Subs to newsletter to get latest information about our progress,
+                directly to your email inbox
+              </p>
+              <div
+                class="
+                  d-flex
+                  flex-row
+                  mt-3
+                  justify-content-center justify-content-lg-start
+                "
+              >
+                <div class="form-floating">
+                  <input
+                    type="email"
+                    class="
+                      form-control
+                      text-black
+                      rounded-start rounded-0
+                      border-0
+                    "
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label class="text-soft-black" for="floatingInput"
+                    >Email address</label
+                  >
                 </div>
+                <a
+                  href="#"
+                  class="
+                    d-flex
+                    bg-primary
+                    rounded-end
+                    px-3
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <img src="../asset/Homepage/Send.svg" alt="send" />
+                </a>
+              </div>
             </div>
-            <div class="col-12 col-lg my-5 my-lg-0 text-white">
-                <h1 class="fs-4 fw-bold text-white">Social</h1>
-                <div class="mt-4 pe-lg-5 d-flex flex-row justify-content-center justify-content-lg-start gap-3">
-                    <a href="https://www.twitter.com/" target="_blank"><img src="../asset/Homepage/Twitter.svg"
-                                                                            alt="twitter"></a>
-                    <a href="https://www.youtube.com/" target="_blank"><img src="../asset/Homepage/Youtube.svg"
-                                                                            alt="youtube"></a>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="../asset/Homepage/Facebook.svg"
-                                                                             alt="facebook"></a>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="../asset/Homepage/Instagram.svg"
-                                                                              alt="instagram"></a>
-                </div>
+          </div>
+          <div class="col-12 col-lg my-5 my-lg-0 text-white">
+            <h1 class="fs-4 fw-bold text-white">Social</h1>
+            <div
+              class="
+                mt-4
+                pe-lg-5
+                d-flex
+                flex-row
+                justify-content-center justify-content-lg-start
+                gap-3
+              "
+            >
+              <a href="https://www.twitter.com/" target="_blank"
+                ><img src="../asset/Homepage/Twitter.svg" alt="twitter"
+              /></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><img src="../asset/Homepage/Youtube.svg" alt="youtube"
+              /></a>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="../asset/Homepage/Facebook.svg" alt="facebook"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="../asset/Homepage/Instagram.svg" alt="instagram"
+              /></a>
             </div>
+          </div>
         </div>
-        <h1 class="mt-5 fs-6 fw-bold text-center text-soft-grey"> Copyright © kanantre</h1>
-    </footer>
-</main>
-</body>
+        <h1 class="mt-5 fs-6 fw-bold text-center text-soft-grey">
+          Copyright © kanantre
+        </h1>
+      </footer>
+    </main>
+  </body>
 </html>

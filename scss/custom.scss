@@ -12,23 +12,35 @@ $soft-green: #e8ffee;
 $soft-grey: #c9e0cf;
 
 $theme-colors: (
-        primary: $primaryColor,
-        black: $black,
-        soft-black: $soft-black,
-        soft-green: $soft-green,
-        soft-grey: $soft-grey,
+  primary: $primaryColor,
+  black: $black,
+  soft-black: $soft-black,
+  soft-green: $soft-green,
+  soft-grey: $soft-grey,
 );
 
 $font-family-base: "Poppins", sans-serif;
+
+// //  Margin & Padding
+// $spacer: 1rem;
+// $spacers: (
+//         0: 0,
+//         1: $spacer / 2,
+//         2: $spacer,
+//         3: $spacer * 1.5,
+//         4: $spacer * 3,
+//         5: $spacer * 5,
+// );
 
 //  Accordion - Custom
 $accordion-button-active-bg: tint-color($primaryColor, 90%);
 $accordion-button-active-color: shade-color($primaryColor, 10%);
 $accordion-button-focus-border-color: tint-color($primaryColor, 50%);
-$accordion-button-focus-box-shadow: 0 0 $input-btn-focus-blur $input-btn-focus-width rgba($primaryColor, $input-btn-focus-color-opacity);
+$accordion-button-focus-box-shadow: 0 0 $input-btn-focus-blur
+  $input-btn-focus-width rgba($primaryColor, $input-btn-focus-color-opacity);
 
 $accordion-icon-active-color: shade-color($primaryColor, 10%);
-$accordion-icon-transition: transform .25s ease-in-out;
+$accordion-icon-transition: transform 0.25s ease-in-out;
 
 //  Custom Bootstrap
 
@@ -38,9 +50,58 @@ $accordion-icon-transition: transform .25s ease-in-out;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
+}
+
+.heading-1 {
+  color: $black;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.heading-2 {
+  color: $black;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.heading-3 {
+  color: $black;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.heading-4 {
+  color: $black;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.heading-5 {
+  color: $black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.heading-6 {
+  color: $black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.body-text-lg {
+  color: $black;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.body-text-lg-gray {
+  color: $soft-black;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .body-text {
@@ -169,30 +230,6 @@ html, body {
 }
 
 //  Pricing
-.heading-1 {
-  color: $black;
-  font-size: 64px;
-  font-weight: 600;
-}
-
-.heading-3 {
-  color: $black;
-  font-size: 36px;
-  font-weight: 600;
-}
-
-.heading-5 {
-  color: $black;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.heading-6 {
-  color: $black;
-  font-size: 16px;
-  font-weight: 600;
-}
-
 .pricing-plan-subtitle {
   color: $soft-black;
   font-size: 18px;
